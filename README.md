@@ -1,4 +1,4 @@
-# Sales Dashboard
+# Simple Sales Dashboard
 
 
 ## Consideraciones: 

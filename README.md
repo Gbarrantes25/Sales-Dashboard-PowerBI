@@ -40,7 +40,7 @@ Diseñado para analizar las unidades y productos vendidos por vendedor.
 
 ## ✅ Características Principales
 - Transformaciones en Power Query: Se realizaron procesos de limpieza y modelado de datos para optimizar el rendimiento.
-- Medidas DAX: Se implementaron cálculos para análisis de empleados y segmentación por género.
+- Medidas DAX:
   - <code>Unidades Vendidas = SUM(Ventas[Unidades])</code>
   - <code>Productos Distintos = DISTINCTCOUNT(Ventas[CódigoProducto])</code>
   - <code>Porcentaje de Ventas = DIVIDE([Unidades Vendidas],CALCULATE([Unidades Vendidas],ALL(Vendedores[Representante])))</code>
